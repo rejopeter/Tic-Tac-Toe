@@ -1,4 +1,5 @@
 # Player.rb
+# frozen_string_literal: true
 
 # Class to represent a player in the Tic-Tac-Toe game
 # Each player has a name and a marker (like 'X' or 'O')
@@ -22,4 +23,3 @@ class Player
     puts "#{@name} is playing as #{@marker}"
   end
 end
-
