@@ -9,6 +9,20 @@
 ## Overview
 This is a classic Tic-Tac-Toe game implemented in Ruby. The game supports two human players taking turns to mark spaces in a 3×3 grid. Players take turns placing their marks on the board. The first to place three marks in a horizontal, vertical, or diagonal line wins. If all squares are filled without a winner, the game ends in a draw.
 ---
+## Project Structure
+
+- `lib/`  
+  Contains core Ruby files: `player.rb`, `board.rb`, and `game.rb`.
+
+- `Gemfile`  
+  Manages gem dependencies.
+
+- `.rubocop.yml`  
+  Custom RuboCop rules for consistent code style.
+
+- `README.md`  
+  Project documentation.
+---
 ## Files and Their Responsibilities
 ### 1. `main.rb`
 - Entry point of the game.
