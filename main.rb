@@ -3,9 +3,9 @@
 
 # Tic-Tac-Toe game
 
-require_relative 'board'
-require_relative 'player'
-require_relative 'game'
+require_relative 'lib/board'
+require_relative 'lib/player'
+require_relative 'lib/game'
 
 # Prompt users for two unique, non-empty player names
 def unique_player_names
